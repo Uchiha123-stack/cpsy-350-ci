@@ -40,4 +40,4 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         context: .
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/node-ci-app:latest
+        tags: sakshamchopra/cpsy-350-ci
